@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Console;
 
 namespace Test_SSP_Socket_01
 {
-    internal static class Program
+    internal static class MainApp
     {
         /// <summary>
         /// 해당 애플리케이션의 주 진입점입니다.
@@ -19,4 +20,6 @@ namespace Test_SSP_Socket_01
             Application.Run(new Form1());
         }
     }
+
 }
+
