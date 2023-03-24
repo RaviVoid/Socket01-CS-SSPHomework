@@ -96,5 +96,15 @@
   <ItemGroup>
     <Content Include="MetroFramework.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleAppClient_01\ConsoleAppClient_01.csproj">
+      <Project>{cb5f28b2-5134-4e86-ac9e-ce6cde9f40de}</Project>
+      <Name>ConsoleAppClient_01</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ConsoleAppServer_01\ConsoleAppServer_01.csproj">
+      <Project>{5f2bc5ea-4fd8-4982-87d8-7966dea40707}</Project>
+      <Name>ConsoleAppServer_01</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
